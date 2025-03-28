@@ -1,0 +1,50 @@
+/* Общий стиль для карточек */
+.dashboard-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Заголовки */
+  .dashboard-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Ввод пороговых значений */
+  .threshold-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .threshold-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Статус дверей */
+  .door-status {
+    font-size: 1.2rem;
+    padding: 5px 0;
+  }
+  
+  /* Управление освещением */
+  .light-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 5px 0;
+  }
+  
+  /* Стили для графиков */
+  .recharts-wrapper {
+    margin-top: 15px;
+  }
+  
