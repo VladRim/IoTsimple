@@ -1,5 +1,6 @@
 # IoTsimple
-Это классический IoT-проект на Raspberry Pi. Предлагаю следующий стек технологий:
+Это классический IoT-проект на Raspberry Pi. 
+Следующий стек технологий:
     Локальный dashboard: Node.js + React (или Grafana для быстрой визуализации)
     MQTT-клиент: Eclipse Paho MQTT (или mosquitto как брокер)
     База данных: SQLite
